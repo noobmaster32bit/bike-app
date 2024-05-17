@@ -1,0 +1,127 @@
+*{
+    font-family:"Inter";
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.fa {
+    color: #b8101f;
+}
+
+.icon-text{
+    color: #b8101f;
+}
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.btn.quote,.fa-arrow-right{
+    background-color:#b8101f;
+    color: white;
+    border-radius: 0;
+    
+    
+}
+
+.container-fluid{
+    height: 100vh;
+    background-image: url('../images/bike2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+.quote-text{
+    padding-top: 20%;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.bikekart{
+    color: #b8101f;
+}
+
+.about .btn {
+    background-color: #b8101f;
+    border-radius: 0;
+    color: white;
+}
+
+.fact{
+    height: 200px;
+    background-color: #b8101f;
+}
+
+
+/* REGiSTER PAGE */
+.registerbody{
+    background-image: url(../images/bike3.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.registertext{
+    margin-top: 20vh;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 4rem;
+}
+
+.registerbox {
+    background-color: #b8101f;
+    margin-top: 20vh;
+}
+
+/* SIGNIN PAGE */
+
+.signinbody{
+    background-image: url(../images/bike3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.signinformdisplay{
+    background-color: #b8101f;
+}
+
+
+/* USER DASH */
+
+.dash-nav .navbar-nav .nav-link{
+    margin-right: 100px;
+    padding: 25px 0;
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.dash-nav .navbar-nav .nav-link :hover{
+    color: #b8101f;
+}
+
+.dropdown-menu-lg-start[data-bs-popper] {
+    right: 0;
+    left: auto;
+    border-radius: 0;
+}
+
+.dropdown-menu-lg-start[data-bs-popper] :hover{
+    background-color: #dd818a;
+    color: white;
+}
+
+/* Body  */
+

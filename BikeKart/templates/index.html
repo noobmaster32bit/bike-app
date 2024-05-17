@@ -1,0 +1,24 @@
+{%extends 'base.html'%}
+
+{%load static%}
+
+{%block main_block%}
+<div class="listbike container mt-5">
+    {{request.user}}
+    <div class="row">
+        {%for v in data%}
+        <div class="card me-5 mb-5" style="width: 18rem; border-radius: 20px; padding: 12px;">
+            <img src="{{v.image.url}}" class="card-img-top" alt="..." style="border-radius: 16px;">
+            <div class="card-body">
+                <h5 class="card-title">₹{{v.price}}</h5>
+                <p class="card-text fw-light">{{v.name}}</p><span></span><p class="card-text fw-light">{{v.brand_object}}</p>
+                <p class="card-text fw-light">{{v.location}}</p>
+                <a href="{%url 'bikes-detail' v.id%}" class="btn btn-danger" style="border-radius: 50px;">View More</a>
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+</div>
+
+{%endblock%}
+
